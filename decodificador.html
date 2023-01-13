@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="decodificador.js">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styledecodificador.css" >
+    <script src="https://kit.fontawesome.com/b8b00c32a9.js" crossorigin="anonymous"></script>
+    <title>Decodificador</title>
+</head>
+<body>
+
+<header>
+    <div class="cabecario">
+        <img src="img/Logo.jpg" class="logo">
+        <p class="titlepage">Decodificador</p>
+    </div>
+</header>
+<menu>
+    <div class="container-menu">
+        <div class="criptografador">
+            <textarea neme="text" id="input-textarea" cols="30" rows="10" placeholder="Digite o seu texto aqui" style="resize: none"></textarea>
+        </div>
+
+        <div class="textcriptografado">
+            <div id="caixaGaroto">
+                <img src="img/garoto.jpg" class="img-Garoto">
+                <h1>Nenhuma mensagem encontrada</h1>
+                <p class="text-caixa">Digite um texto que você deseja criptografar.</p>
+            </div>
+            <div id="outinput">
+              
+            </div>
+        </div>
+    </div>
+
+    <div class="alert">
+        <img src="img/Alerta.jpg">
+        <p>Apenas letras minúsculas e sem acento</p>
+    </div>
+    <div class="container-button">
+        <button onclick="criptografar() + sumir('caixaGaroto')" class="button">Criptografar</button>
+        <button onclick="descriptografar()" class="button">Descriptografar</button>
+    </div>
+</menu>
+
+<footer class="rodape">
+    <div class="img-rodape">
+        <p class="text-footer">- Projetado por Edson Machado - Projeto ONCLE-T4.</p>
+            <ul class="img-icon">
+                <li><i class="fa-brands fa-linkedin-in"></i></li>              
+                <li><i class="fa-brands fa-instagram"></i></li>
+                <li> <i class="fa-brands fa-github"></i></li>
+            </ul>
+    </div>
+</footer>
+
+<script src="decodificador.js"></script>
+
+
+</body>
