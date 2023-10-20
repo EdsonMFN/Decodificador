@@ -1,2 +1,6 @@
 # Decodificador
-Api Front-end, de criptografia de textos, utilizando, JavaScript, HTML e CSS;
+Api Front-end, de criptografia de textos.
+## Ferramentas utilizadas
+- HTML
+- JavaSript;
+- CSS.
